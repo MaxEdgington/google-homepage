@@ -1,0 +1,39 @@
+div{
+    display:flex;
+}
+
+/* Top part of webpage  */
+
+.asbcontainer {
+    padding: 15px 15px;
+}
+
+.asbul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.asb1 {
+    order: 1;
+    display:inline;
+    padding: 15px 15px;
+}
+.asb2 {
+    order: 2;
+    display:inline;
+    padding: 15px 15px;
+}
+.asb3 {
+    order: 3;
+    display:inline;
+    padding: 15px 15px;
+    justify-content: flex-end;
+}
+.asb4 {
+    order:4; 
+    display:inline;
+    padding: 15px 15px;
+    justify-content: flex-end;
+}

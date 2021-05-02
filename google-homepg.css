@@ -1,0 +1,35 @@
+body{
+    display:grid;
+    grid-template-areas:
+    "header . header"
+    ". body . "
+    "footer footer footer";
+    
+}
+
+#container-1 {
+    display: grid;
+    background-color:blueviolet;
+    height: 40px;
+    
+}
+
+#container-2 {
+    display: grid;
+    background-color:cadetblue;
+    height: 800px;
+    
+}
+
+#container-3 {
+    display: grid;
+    background-color:chocolate;
+    height: 40px;
+    
+}
+#container-4 {
+    display: grid;
+    background-color:rgb(99, 78, 63);
+    height: 40px;
+    
+}
