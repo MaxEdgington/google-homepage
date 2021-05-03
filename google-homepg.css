@@ -3,6 +3,7 @@ body{
     grid-template-areas:
     "header . header"
     ". body . "
+    ". body . "
     "footer footer footer";
     
 }
@@ -10,14 +11,28 @@ body{
 #container-1 {
     display: grid;
     background-color:blueviolet;
-    height: 40px;
+    height: 50px;
+    
+    
+}
+
+.active{
+    padding: 10px 10px;
+}
+
+.news{
+    padding-right:10px ;
+    float: right;
+}
+
+.contact{
     
 }
 
 #container-2 {
     display: grid;
     background-color:cadetblue;
-    height: 800px;
+    height: 700px;
     
 }
 
@@ -32,4 +47,41 @@ body{
     background-color:rgb(99, 78, 63);
     height: 40px;
     
+}
+
+.btn-1 {
+    position: absolute;
+    padding: 10px;
+}
+.btn-1:hover:hover{
+    background-color: cornflowerblue;
+    position: relative;
+    padding: 15px;
+}
+
+.google-img-container{
+    position: relative;
+    background-color:rgb(99, 78, 63);
+    margin: 100px 40% 600px 45%;
+    z-index: 2;
+    object-position: center bottom;
+}
+
+.search-bar{
+background-color:blueviolet;
+ width: 450px;
+margin: 10px 0px 30px 40px;
+border: none;
+
+}
+
+.search-bar-container{
+    margin: -500px 40% 10px 40%;
+    background-color: grey;
+    opacity: 30%;
+    border-color: black;
+    border-width: 50px;
+    border-radius: 24px;
+    height: 54px; 
+    width: 550px;
 }
