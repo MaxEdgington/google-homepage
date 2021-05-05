@@ -24,7 +24,7 @@ body{
 
 #search-icon{
 position: relative;
-margin-top: 8px;
+margin-top:9px;
 margin-left: 10px;
 color: #9aa0a6;
 height: 20px;
@@ -54,55 +54,94 @@ z-index: 4;
 }   
 input:focus{
     outline: none;
+}
+
+
+
+#microphone{
+    position: absolute; 
+    max-height: 120%;
+    z-index: 1;
+    margin-left: 92%;
+    margin-top: -9.5%;
     
+    
+}
+
+#navbar{
+    padding-bottom: 10px;
 }
 
 ul {
     list-style: none;
-    margin: 0%;
-    padding: 0%;
+    
 }
 li {
     display: inline;
     
 }
 .li-a {
-    padding: 15px 15px;
+    padding: 15px;
+    float: left;  
 }
 .li-b {
     float: right;
     padding: 15px 15px;
 }
-*{margin: 0%;
-  padding:0%;
+*{
   list-style: none;
   text-decoration: none;
-  
+ 
 }
 
+
 .footer{
-    position:fixed;
-    left:0;
-    bottom: 2%;
+    position:absolute;
+    bottom: 4%;
     width: 100%;
-    height: 6%;
     background-color: #f2f2f2;
     color: rgb(0, 0, 0);
     opacity: 80%;
-    padding-left: 15px;
     padding-top: 10px;
+    padding-left: 0px;
     
     
+}
+
+#canada{
+opacity: 60%;
+
 }
 .footer2{
     position:fixed;
-    left:120px;
     bottom: 0%;
     width: 100%;
-    height: 4%;
+    height: 5%;
     background-color: #f2f2f2;
     color: rgb(0, 0, 0);
     opacity: 80%;
+    
+}
+
+hr{
+opacity: 15%;
+}
+
+#footer-a{
+    padding: 0px 15px;
+}
+
+.footer-list{
+    display: inline;
+}
+
+.foot-items-1{
+    padding-right: 10px;
+    float: left;
+}
+.foot-items-2{
+    padding-left: 10px;
+    float:right;
     
 }
 
