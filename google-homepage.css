@@ -56,6 +56,30 @@ input:focus{
     outline: none;
 }
 
+.buttons-container{
+position: block;
+margin-top: 30px;  
+margin-right: 42%;
+margin-left: 41%;
+padding-right: 10px;
+height: 40px;
+    
+}
+
+.button{
+    border:none;
+    height: 36px;
+    font-size: 14px;
+    background-color:#f8f9fa;
+    border-radius: 4px;
+}
+
+.button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
 
 
 #microphone{
@@ -87,6 +111,7 @@ li {
 .li-b {
     float: right;
     padding: 15px 15px;
+    padding-right: 10px;
 }
 *{
   list-style: none;
@@ -94,6 +119,24 @@ li {
  
 }
 
+#apps-icon{
+    display: block;
+    float:right;
+    padding-right:15px;
+    padding-left: 15px;
+    margin-top: 10px;
+
+}
+
+#usericon{
+    float: right;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight:600;
+    padding: 10px;
+}
 
 .footer{
     position:absolute;
